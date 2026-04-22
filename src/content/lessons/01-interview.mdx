@@ -12,29 +12,7 @@ agentInstructions: |
   Present ALL questions at once interactively. Include a "Skip" option in
   every question.
 
-  Question 1 — How do you prefer to learn?
-  Single select. Options: Explain concepts first, Jump into hands-on
-  exploration, Show me examples.
-  API value for learningStyle: "concepts-first", "hands-on", "examples".
-
-  Question 2 — How much detail do you want?
-  Single select. Options: Keep it brief, Some context is nice, Give me
-  all the details.
-  API value for depthPreference: "brief", "some-context", "all-details".
-
-  Question 3 — How familiar are you with fruit beyond the grocery store basics?
-  Single select. Options: Casual eater (I eat fruit but haven't thought
-  much about it), Curious explorer (I've wondered about fruit origins and
-  varieties), Fruit enthusiast (I grow fruit, visit orchards, or cook
-  with unusual varieties).
-  API value for fruitFamiliarity: "casual", "curious", "enthusiast".
-
-  Question 4 — What aspect of fruit are you most curious about?
-  Single select. Options: Cultural history (how fruits shaped trade and
-  civilizations), Science and botany (genetics, nutrition, ripening),
-  Etymology and stories (word origins, myths, fun facts), A bit of
-  everything.
-  API value for interestFocus: "history", "science", "stories", "all".
+  {interviewQuestions}
 
   After answers are collected, submit them in a single
   PUT /api/profile/{studentId} request. Include only the fields the
