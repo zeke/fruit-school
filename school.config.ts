@@ -103,7 +103,8 @@ const config: SchoolConfig = {
 				{
 					value: "science",
 					label: "Science and botany",
-					description: "Genetics, nutrition, ripening, botanical classification",
+					description:
+						"Genetics, nutrition, ripening, botanical classification",
 				},
 				{
 					value: "stories",

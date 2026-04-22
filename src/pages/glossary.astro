@@ -4,7 +4,7 @@ export const prerender = true;
 import Base from "../layouts/Base.astro";
 ---
 
-<Base title="Glossary" description="Definitions of common terms used in this school.">
+<Base title="Glossary" description="Definitions of common terms used in Fruit School.">
   <div class="mb-6">
     <a href="/" class="text-sm text-gray-500 dark:text-gray-500 hover:text-gray-700 dark:hover:text-gray-300 transition-colors">
       &larr; Home
@@ -13,13 +13,62 @@ import Base from "../layouts/Base.astro";
 
   <header class="mb-8">
     <h1 class="text-3xl font-bold">Glossary</h1>
-    <p class="text-gray-600 dark:text-gray-400 mt-2">Definitions of common terms used in this school.</p>
+    <p class="text-gray-600 dark:text-gray-400 mt-2">Definitions of common terms used in Fruit School.</p>
   </header>
 
   <article class="prose dark:prose-invert max-w-none">
-    <!-- Add glossary terms here as you create lesson content. Example: -->
-    <!-- <h2 id="term">Term</h2> -->
-    <!-- <p>Definition of the term.</p> -->
-    <p class="text-gray-500 dark:text-stone-500 italic">No glossary terms yet. Add them as you create lesson content.</p>
+    <h2 id="berry">Berry</h2>
+    <p>Botanically, a fleshy fruit produced from a single ovary, with seeds embedded in the flesh. Grapes, tomatoes, and bananas are true berries. Strawberries, raspberries, and blackberries are not (they're aggregate or accessory fruits). Common usage and botanical usage rarely agree.</p>
+
+    <h2 id="bromelain">Bromelain</h2>
+    <p>A protein-digesting enzyme found in pineapples. It breaks down proteins in your mouth (causing that tingling sensation) and prevents gelatin from setting. Destroyed by heat, which is why canned pineapple doesn't have the same effect.</p>
+
+    <h2 id="cultivar">Cultivar</h2>
+    <p>A plant variety produced by selective breeding and maintained through propagation. Honeycrisp, Granny Smith, and Gala are apple cultivars. Musang King and D24 are durian cultivars. Short for "cultivated variety."</p>
+
+    <h2 id="drupe">Drupe</h2>
+    <p>A fruit with a fleshy outer part surrounding a hard pit (stone) that encloses a single seed. Peaches, cherries, plums, and mangoes are drupes. Also called stone fruits.</p>
+
+    <h2 id="ethylene">Ethylene</h2>
+    <p>A plant hormone (gas) that triggers ripening. Climacteric fruits like bananas, tomatoes, and mangoes continue ripening after harvest because they produce ethylene. Non-climacteric fruits like grapes and citrus don't. This is why putting a banana next to other fruit speeds up ripening.</p>
+
+    <h2 id="grafting">Grafting</h2>
+    <p>A horticultural technique where a cutting from one plant (the scion) is attached to the rootstock of another so they grow together as one. Used extensively for apples, grapes, and citrus. Every named apple variety is a clone propagated by grafting.</p>
+
+    <h2 id="hesperidium">Hesperidium</h2>
+    <p>The technical name for a citrus fruit: a modified berry with a leathery rind and segmented interior. Lemons, oranges, limes, and grapefruits are all hesperidia. Named after the Hesperides of Greek mythology, who guarded golden fruit.</p>
+
+    <h2 id="heterozygote">Heterozygote</h2>
+    <p>An organism with two different versions of a gene. Apples are "extreme heterozygotes," meaning each seed produces a genetically unique tree. This is why apples don't grow true from seed and must be propagated by grafting.</p>
+
+    <h2 id="lycopene">Lycopene</h2>
+    <p>A red pigment and antioxidant found in tomatoes, watermelons, and other red fruits. Responsible for the red color. More bioavailable when cooked (as in tomato sauce) than when raw.</p>
+
+    <h2 id="monoculture">Monoculture</h2>
+    <p>Growing a single crop variety over a large area. The Cavendish banana is the most extreme example: every commercial banana is genetically identical, making the entire crop vulnerable to a single disease. The opposite of biodiversity.</p>
+
+    <h2 id="parthenocarpy">Parthenocarpy</h2>
+    <p>The production of fruit without fertilization or seed development. Commercial bananas and some fig varieties are parthenocarpic, which is why they're seedless. The plants can only reproduce through vegetative propagation (cuttings).</p>
+
+    <h2 id="phylloxera">Phylloxera</h2>
+    <p>A tiny root-feeding aphid (<em>Dactulosphaira vitifoliae</em>) native to North America that devastated European vineyards in the 1860s-1880s. The solution was grafting European vines onto resistant American rootstock. Nearly every vineyard in the world now grows on American roots.</p>
+
+    <h2 id="pome">Pome</h2>
+    <p>A fruit type where the seeds are contained in a central core surrounded by a thick, fleshy outer layer. Apples, pears, and quinces are pomes. The edible part is the swollen receptacle, not the ovary itself.</p>
+
+    <h2 id="rootstock">Rootstock</h2>
+    <p>The root system and lower trunk of a plant onto which a scion (cutting) from another plant is grafted. In grape growing, American rootstock provides phylloxera resistance. In apple growing, rootstock controls tree size.</p>
+
+    <h2 id="syconium">Syconium</h2>
+    <p>The fig's unique fruit structure: a hollow, fleshy receptacle with flowers on the inside surface. When you eat a fig, you're eating an inverted flower cluster. The crunchy bits are individual fruits produced by each tiny flower.</p>
+
+    <h2 id="terroir">Terroir</h2>
+    <p>The combination of soil, climate, topography, and local conditions that give an agricultural product its distinctive character. Most commonly associated with wine grapes, but also applies to Amalfi lemons, San Marzano tomatoes, and other region-specific fruits.</p>
+
+    <h2 id="triploid">Triploid</h2>
+    <p>An organism with three sets of chromosomes instead of the usual two. Seedless watermelons and commercial bananas are triploids. Having an odd number of chromosome sets makes normal cell division during reproduction impossible, resulting in seedless fruit.</p>
+
+    <h2 id="urushiol">Urushiol</h2>
+    <p>An oily organic compound that causes contact dermatitis (itchy rash). Found in poison ivy, poison oak, mango skin, and cashew shells. These plants are all in the same family (Anacardiaceae). Some people get a rash from handling mango skin for this reason.</p>
   </article>
 </Base>
